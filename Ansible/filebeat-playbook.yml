@@ -1,5 +1,5 @@
 ---
-- name: Configure filebeat download bs
+- name: Configure filebeat download 
   hosts: webservers
   remote_user: azureuser
   become: true
