@@ -1,0 +1,33 @@
+---
+- name: Metricbeat
+  hosts: webservers
+  remote_user: azureuser
+  become: true
+  tasks:
+      # Use command module
+    - name: download the .deb file
+      command: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-amd64.deb
+      # Use command module
+    - name: install the .deb file
+      command: sudo dpkg -i metricbeat-7.6.1-amd64.deb
+      # Use command module
+    - name: dropin metricbeat config
+      copy:
+        src: /etc/metricbeat/metricbeat.yml
+        dest: /etc/metricbeat/metricbeat.yml
+      # Use command module
+    - name: enable and configure dock mod for metricbeat
+      command: metricbeat modules enable docker
+      # Use command module
+    - name: setup metricbeat
+      command: metricbeat setup
+      # Use command module
+    - name: start metricbeat
+      command: service metricbeat start
+      # Use systemd module
+    - name: enable service metricbeat on boot
+      systemd:
+        name: metricbeat
+        enabled: yes
+
+
