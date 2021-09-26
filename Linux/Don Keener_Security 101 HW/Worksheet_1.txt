@@ -1,0 +1,114 @@
+1.Formjacking is when cybercriminals inject malicious JavaScript code to hack a website and take over the functionality of the site's form page to collect sensitive user information. Formjacking is designed to steal credit card details and other information from payment forms that can be captured on the checkout pages of websites.
+
+2.According to the authenticated Symantec Internet Security Threat Report 2019, formjackers hacked 4,818 unique websites each month in 2018.
+
+3.PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and the associated scripting language.
+
+4.There was a 1000% increase in malicious Powershell scripts.
+
+5.Coinminers are programs that generate cryptocurrency like Bitcoin, Monero, Ethereum, ect.  Some of examples of coinmining programs are kryptex, BeMine, ECOS, Hashing24, Cudo Miner, and Computta.
+
+6.The data from a single credit card can be sold more than $45.00 according to Smantec.
+
+7.Magecart was able to get into a 3rd party chatbot service that was embedded on the Ticketmaster site, a chatbot is a program that simulates human conversation, either by voice or text, from there, they were abled to capture customer and payment data.
+
+8.The growth in formjacking in 2018 may be partially explained
+by the drop in the value of cryptocurrencies during the year:
+cyber criminals who may have used websites for cryptojacking
+may now be opting for formjacking. The value of stolen credit
+card details on the cyber underground is probably more
+assured than the value of cryptocurrencies in the current
+climate.
+
+9.Cryptojacking dropped by 52% between January and December of 2018.
+
+10.If a web page contains a coinmining script, the web page visitors computing power will be used to mine for cryptocurrency for as long as the web page is kept open.
+
+11.An exploit kit is a program that works by gathering information and finds vulnerabilities on a machine.  It then determines the appropriate exploit to run malware and keep the remote access on the machine.
+
+12.The criminal group SamSam specializes in ransomware.
+
+13.Symantec found evidence of 67 SamSam attacks in 2018.
+
+14.One dramatic change that occurred in 2017-2018 was Symantec's increased efficiency of catching the ransomeware.
+
+15.In 2018 the primary ransomware distribution method was email campaigns that used spear phishing.
+
+16.The Windows operating system is the most targeted by ransomware attacks.  This is because Windows based systems are typically more affordable, more people use them.
+
+17.A "living off the land" attack is a fileless malware attack.  This means it uses legitimate programs to infect a computer like net.exe, PowerShell, the certification utility, the task scheduler and the WMI command line.  The advantage of this to the hacker is hackers can change indicators of compromise and using pre existing software avoids being flagged as suspicious.  The hackers also dont have to develope the binary to deliver an attack.
+
+18.net.exe, PowerShell, the cetification utility, the task scheduler and the WMI command line are examples of tools used in "living off the land" attacks.
+
+19.Zero-Day exploits are computer software vulnerabilities that have not been found out by anyone that should be mitigating them.  A new hack that has not been countered yet.
+
+20.Zero-Day exploits declined by 4% in 2018.
+
+21.One of the techniques that Emotet uses is man-in-the-middle-browser that allows injected malicious code to be inserted.  Exploit kits and spam campaigns are a couple of the other techniques that the Emotet and Qakbot worms use.
+
+22.A supply chain attack is a cyber attack that targets less secure elements in the supply chain of a business.  This also could be used to ruin machines and equipment used in the buisinesses.  There was a 78% increase in supply chain attacks in 2018.
+
+23.The challenge that suppy chain attacks and living off the land attacks is they make business way harder to conduct when these attacks happen.  Now the buissineses and anyone else affected by these attacks, have to invest in better cyber security personell and systems.
+
+24.The 20 most active groups tracked by Symantec between 2016 to 2018 targeted 55 organizations.
+
+25.There were many indictements on individuals and organizations in 2018.  Some of the countries that these entities were from are Nigeria, Russia, China, U.S.A. it is a worldwide problem.
+
+26.The common theme of the incresed number of cloud cybersecurity attacks seems to be ease of entry for hackers.  Container technology programming lapses and mistakes in configuration puts systems at risk for attack.
+
+27.Since the cloud shares a pooled memory for individuals, this means that if the memory is hacked in the cloud, its going to affect everyone.
+
+28.Meltdown and Spectre are examples of the above cloud attack.  They are hardware vulnerabilities that affect the Intel x86 microprocessors, IBM Power processors and some ARM-based microprocessors.
+
+29.Windows PC's and Android devices are 2 of the most common IoT things that get infected.  The pecentage is 38.92% of Windows/PCs and 35.76% of Android devices.
+
+30.Mirai is malware that infects smart devices that run on ARC processors, turning them into a network of remotely controlled bots or "zombies". This network of bots, called a botnet, is often used to launch DDoS attacks.
+
+31.Mirai was the third most common IoT threat in 2018 due to the large number of ARC run devices and the ease of spreading the malware. It is also constantly evolving and variants use up to 16 different exploits.
+
+32.The malware, known as VPNFilter, is unlike most other IoT threats because it is capable of maintaining a persistent presence on an infected device, even after a reboot. 
+
+33.In 2019, the DNC Democratic National Committee was attacked with an email phishing scheme.  The Russians are suspected to be behind this attack.
+
+34.Microsoft Office files accounted for 48% of all malicious email attachments in 2018.
+
+35.The top two malicious email attachments in 2018 were both finance related themes.  Examples of the subject lines are invoice, payment remittance, statement and payment.
+
+36.In 2018, the top malicious email attachemnt type was the Microsoft .DOC attachemt.  The reason for this is, the large number of Microsoft usage.
+
+37.The United States of America had the highest email phishing rate in 2018 and securelist.com states that Vietnam had the lowest rate.
+
+38.Emotet is a worm that infects systems with malware. In 2018 its payload consists of a packed file containing the main component and an anti analysis module.  The anti analysis module performs multiple checks to ensure it is not being run on a malware research machine, then loads the main component.  Either PowerShell or JavaScript is used to download the Trojan, which delivers a packed payload file to the victim machine.  Once on a machine, the latest version of Emotet:
+1. Moves itself to its preferred directory
+2. Creates a LNK file pointing to itself in the startup folder
+3. Collects victim machine information and sents it to the C&C server.
+
+39.Emotet is the top Malware threat of the year.  over 1 million hits per day were being blocked by Symantec's various protection services.
+
+40.Malware primarily attacks the Microsoft Windows, macOS, Android, and iOS systems.
+
+41.CoinMiner was the top coinminer of 2018.  Around 5 million cryptojacking events were blocked by Symantec in July 2018.
+
+42.Trickbot, Gozi, and Ramnit were the top three financial Trojans of 2018.
+
+43.Targeted attacks were the most common avenu of attack in 2018.  Attackers mostly used spyware and remote administration malware to collect sensitive inforfmation or gain a foothold on systems during targeted attacks.
+
+44.Destructive malware is malicious software with the capability to render affected systems inopeable and challenge reconstitution.  There was a 200% increase in destructive malware from 2018 to 2019.
+
+45."root" was the top user name used in IoT attacks with "admin" coming in second.
+
+46."123456" was the top password used in IoT attacks with "BLANK" coming in second.
+
+47.Bluetooth, WiFi, and ZigBee were the top three protocols unsed in IoT attacks.
+SSH port22 brute force attacks are the #1 attack and port 80http web traffic is the #2.
+
+48.In the underound economy, someone can get:
+
+a. $0.10 to $1.50 for a stolen or fake identity.
+b. $0.10 to $35.00 for stolen medical records.
+c. $100.00+ for a hacker for hire.
+d. $1.00to $45.00 for a credit card with full details.
+e. $2.00 to $6.00 for 500 social media followers.
+
+
+

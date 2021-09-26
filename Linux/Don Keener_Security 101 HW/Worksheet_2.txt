@@ -1,0 +1,25 @@
+Cybersecurity Threat Landscape (Part 2 - Akamai)
+
+1. DDOS attack events from January 2019 to September 2019 largely targeted the gaming industry.
+
+2. Almost 50% of unique targets for DDoS attacks from January 2019 to September 2019 largely targeted the financial services industry.
+
+3. Microsoft, PayPal, DHL, DropBox, are the top phishing targets.
+
+4. Credential stuffing is the automated injection of breached username/password pairs in order to fraudulently gain access to user accounts. This is a subset of the brute force attack category: large numbers of spilled credentials are    automatically entered into websites until they are potentially matched to an existing account, which the attacker can then hijack for their own purposes.
+
+5. U.S.A. is the #1 source of credential abuse attacks.  Russia is #2.
+
+6. U.S.A. is the #1 source of web application attacks.  Rusia is #2.
+
+7. What was happening durning the possible DDoS attack in Asia was a large amount HTTP requests to the URL.  The team believed that the source of the attack was a massive DDoS attack.  The team actually discovered that it was not an attack and that it was a warranty tool gone haywire.  A fix wash pushed within hours to all of the affected systems.
+
+8. An example of performance issues due to bot traffic is the origin server becomes overloaded ant the site becomes slow or unavailable for legitamate users.
+
+9. The catagories of good bots are "Search Engine Crawlers", "Web Archives", "Search Engine Optimization,Audience Analytics, and "Site Monitoring Services" and "Content Aggregators"
+
+10. Two evasion techniques that malicious bots use are:
+
+a. Altering the User Agent or other HTTP header values, allowing the bot to impersonate widely used browsers, mobile applications, or even known good bots.
+
+b. Tamper with browser properties, spoofing known fingerprint characteristics.
