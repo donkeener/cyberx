@@ -97,3 +97,12 @@ _ Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://publicip(elkserver):5601
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+ssh azureuser@JumpBox(PublicIP)
+sudo docker container list -a - Locate the ansible container
+sudo docker start (quirky_carver)
+sudo docker attach (quirky_carver)
+cd /etc/ansible
+ansible-playbook elk-playbook.yml (Installs and Configures ELK-Server)
+cd /etc/ansible/
+ansible-playbook beats-playbook.yml (Installs and Configures Beats)
+Open a new browser on Personal Workstation, navigate to (ELK-Server-PublicIP:5601/app/kibana) - This will bring up Kibana Web Portal
