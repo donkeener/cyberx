@@ -5,9 +5,9 @@ The files in this repository were used to configure the network depicted below.
 ![Network Diagram](Diagrams/Azure_Network_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __ansible___ file may be used to install only certain pieces of it, such as Filebeat.
-
+elk-playbook.yml
   - filebeat-playbook.yml 
-
+  - metricbeat-playbook.yml
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
